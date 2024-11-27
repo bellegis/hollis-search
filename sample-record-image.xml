@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<results
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:marc="http://www.loc.gov/MARC21/slim"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:HarvardDRS="http://hul.harvard.edu/ois/xml/ns/HarvardDRS"
+	xmlns="http://api.lib.harvard.edu/v2/item"
+	xmlns:sets="http://hul.harvard.edu/ois/xml/ns/sets"
+	xmlns:mods="http://www.loc.gov/mods/v3"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:librarycloud="http://hul.harvard.edu/ois/xml/ns/librarycloud"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<pagination>
+		<maxPageableSet>100000</maxPageableSet>
+		<numFound>1</numFound>
+		<query>limit=1&amp;title=brent lane dell map</query>
+		<limit>1</limit>
+		<start>0</start>
+	</pagination>
+	<items>
+		<mods:mods>
+			<mods:titleInfo>
+				<mods:title>Massachusetts</mods:title>
+				<mods:subTitle>a map for Brent Lane of Dell Computer Corporation</mods:subTitle>
+			</mods:titleInfo>
+			<mods:name type="corporate">
+				<mods:namePart>Massachusetts</mods:namePart>
+				<mods:namePart>Metropolitan Area Planning Council</mods:namePart>
+				<mods:role>
+					<mods:roleTerm type="text">creator</mods:roleTerm>
+				</mods:role>
+			</mods:name>
+			<mods:name type="corporate">
+				<mods:namePart>Dell Computer Corp</mods:namePart>
+			</mods:name>
+			<mods:typeOfResource>cartographic</mods:typeOfResource>
+			<mods:genre authority="marcgt">map</mods:genre>
+			<mods:genre authority="rdacontent">cartographic image</mods:genre>
+			<mods:genre authority="lcgft">Maps</mods:genre>
+			<mods:genre authority="lcgft">Road maps.</mods:genre>
+			<mods:originInfo>
+				<mods:place>
+					<mods:placeTerm authority="marccountry" type="code">mau</mods:placeTerm>
+					<mods:placeTerm authority="marccountry" type="text">Massachusetts</mods:placeTerm>
+				</mods:place>
+				<mods:dateIssued encoding="marc">199u</mods:dateIssued>
+				<mods:issuance>monographic</mods:issuance>
+			</mods:originInfo>
+			<mods:originInfo>
+				<mods:place>
+					<mods:placeTerm type="text">[Boston] :</mods:placeTerm>
+				</mods:place>
+				<mods:publisher>[Metropolitan Area Planning Council],</mods:publisher>
+				<mods:dateIssued>[199-?]</mods:dateIssued>
+			</mods:originInfo>
+			<mods:language>
+				<mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+				<mods:languageTerm authority="iso639-2b" type="text">English</mods:languageTerm>
+			</mods:language>
+			<mods:physicalDescription>
+				<mods:extent>1 map : color ; 76 x 110 cm</mods:extent>
+				<mods:form type="media" authority="rdamedia">unmediated</mods:form>
+				<mods:form type="carrier" authority="rdacarrier">sheet</mods:form>
+			</mods:physicalDescription>
+			<mods:note type="statement of responsibility">produced by the Metropolitan Area Planning Council GIS Lab.</mods:note>
+			<mods:note>Shows town boundaries, streams, major ponds, secondary roads, and major highways.</mods:note>
+			<mods:subject>
+				<mods:geographicCode authority="marcgac">n-us-ma</mods:geographicCode>
+			</mods:subject>
+			<mods:subject>
+				<mods:cartographics>
+					<mods:scale>Scale 1:300,000</mods:scale>
+					<mods:coordinates>(W 73°30ʹ00ʺ--W 69°55ʹ00ʺ/N 42°53ʹ00ʺ--N 41°14ʹ00ʺ).</mods:coordinates>
+				</mods:cartographics>
+			</mods:subject>
+			<mods:subject authority="lcsh">
+				<mods:geographic>Massachusetts</mods:geographic>
+				<mods:genre>Maps</mods:genre>
+			</mods:subject>
+			<mods:classification authority="lcc">G3760 1990 .M4</mods:classification>
+			<mods:relatedItem type="series">
+				<mods:titleInfo>
+					<mods:title>Harvard Map Collection digital maps</mods:title>
+					<mods:partName>Massachusetts</mods:partName>
+				</mods:titleInfo>
+			</mods:relatedItem>
+			<mods:identifier type="oclc">951221823</mods:identifier>
+			<mods:relatedItem otherType="HOLLIS record">
+				<mods:location>
+					<mods:url>https://id.lib.harvard.edu/alma/990125364060203941/catalog</mods:url>
+				</mods:location>
+			</mods:relatedItem>
+			<mods:location>
+				<mods:physicalLocation valueURI="http://id.loc.gov/authorities/names/no2006038016" displayLabel="Harvard repository" type="repository">Harvard Map Collection, Harvard University</mods:physicalLocation>
+				<mods:shelfLocator>G3760 1990 .M4</mods:shelfLocator>
+			</mods:location>
+			<mods:location>
+				<mods:url note="Harvard Map Collection copy image" access="raw object">https://nrs.harvard.edu/urn-3:FHCL:5355594?buttons=y</mods:url>
+				<mods:url access="preview">https://ids.lib.harvard.edu/ids/iiif/37329572/full/,150/0/default.jpg</mods:url>
+				<mods:url displayLabel="Scanned Maps" access="object in context">https://id.lib.harvard.edu/curiosity/scanned-maps/44-990125364060203941</mods:url>
+				<mods:url displayLabel="Harvard Digital Collections" access="object in context">https://id.lib.harvard.edu/digital_collections/990125364060203941</mods:url>
+			</mods:location>
+			<mods:extension>
+				<HarvardDRS:DRSMetadata
+					xmlns="http://www.loc.gov/mods/v3"
+					xmlns:ext="http://exslt.org/common"
+					xmlns:originalDocument="http://hul.harvard.edu/ois/xml/ns/originalDocument"
+					xmlns:processingDate="http://hul.harvard.edu/ois/xml/ns/processingDate"
+					xmlns:usage="http://lib.harvard.edu/usagedata"
+					xmlns:priorrecordids="http://hul.harvard.edu/ois/xml/ns/priorrecordids"
+					xmlns:availableTo="http://hul.harvard.edu/ois/xml/ns/availableTo"
+					xmlns:HarvardRepositories="http://hul.harvard.edu/ois/xml/ns/HarvardRepositories"
+					xmlns:digitalFormats="http://hul.harvard.edu/ois/xml/ns/digitalFormats">
+					<HarvardDRS:inDRS>true</HarvardDRS:inDRS>
+					<HarvardDRS:drsObjectId>433095933</HarvardDRS:drsObjectId>
+					<HarvardDRS:drsFileId>37329572</HarvardDRS:drsFileId>
+					<HarvardDRS:accessFlag>P</HarvardDRS:accessFlag>
+					<HarvardDRS:contentModel>STILL IMAGE</HarvardDRS:contentModel>
+					<HarvardDRS:contentModelCode>CMID-5.0</HarvardDRS:contentModelCode>
+					<HarvardDRS:uriType>IDS</HarvardDRS:uriType>
+					<HarvardDRS:fileDeliveryURL>https://nrs.harvard.edu/urn-3:FHCL:5355594</HarvardDRS:fileDeliveryURL>
+					<HarvardDRS:ownerCode>FHCL.MAPS</HarvardDRS:ownerCode>
+					<HarvardDRS:ownerCodeDisplayName>Harvard Map Collection</HarvardDRS:ownerCodeDisplayName>
+					<HarvardDRS:metsLabel>Massachusetts. Massachusetts, 199u. Harvard Map Collection digital maps. http://id.lib.harvard.edu/aleph/012536406/catalog.</HarvardDRS:metsLabel>
+					<HarvardDRS:lastModifiedDate>2011-11-29T19:01:37Z</HarvardDRS:lastModifiedDate>
+					<HarvardDRS:insertionDate>2011-11-29T19:01:37Z</HarvardDRS:insertionDate>
+					<HarvardDRS:ownerSuppliedName>G3760_1990_M4_1429890887</HarvardDRS:ownerSuppliedName>
+					<HarvardDRS:viewText>off</HarvardDRS:viewText>
+					<HarvardDRS:mimeType>image/jp2</HarvardDRS:mimeType>
+					<HarvardDRS:suppliedFilename>G3760_1990_M4.jp2</HarvardDRS:suppliedFilename>
+					<HarvardDRS:harvardMetadataLinks>
+						<HarvardDRS:harvardMetadataLink>
+							<HarvardDRS:metadataIdentifier>http://id.lib.harvard.edu/aleph/012536406/catalog</HarvardDRS:metadataIdentifier>
+							<HarvardDRS:metadataType>Local</HarvardDRS:metadataType>
+							<HarvardDRS:displayLabel>Local</HarvardDRS:displayLabel>
+						</HarvardDRS:harvardMetadataLink>
+					</HarvardDRS:harvardMetadataLinks>
+				</HarvardDRS:DRSMetadata>
+			</mods:extension>
+			<mods:extension>
+				<librarycloud:librarycloud
+					xmlns:ext="http://exslt.org/common"
+					xmlns:originalDocument="http://hul.harvard.edu/ois/xml/ns/originalDocument"
+					xmlns:processingDate="http://hul.harvard.edu/ois/xml/ns/processingDate"
+					xmlns:usage="http://lib.harvard.edu/usagedata"
+					xmlns:priorrecordids="http://hul.harvard.edu/ois/xml/ns/priorrecordids"
+					xmlns:availableTo="http://hul.harvard.edu/ois/xml/ns/availableTo"
+					xmlns:HarvardRepositories="http://hul.harvard.edu/ois/xml/ns/HarvardRepositories"
+					xmlns:digitalFormats="http://hul.harvard.edu/ois/xml/ns/digitalFormats">
+					<librarycloud:availableTo>Everyone</librarycloud:availableTo>
+					<librarycloud:digitalFormats>
+						<librarycloud:digitalFormat>Images</librarycloud:digitalFormat>
+					</librarycloud:digitalFormats>
+					<librarycloud:HarvardRepositories>
+						<librarycloud:HarvardRepository>Map Coll (Pusey)</librarycloud:HarvardRepository>
+					</librarycloud:HarvardRepositories>
+					<librarycloud:originalDocument>https://s3.amazonaws.com/harvard.librarycloud.marc/990125364060203941</librarycloud:originalDocument>
+					<librarycloud:priorrecordids>
+						<librarycloud:recordIdentifier source="MH:ALEPH">012536406</librarycloud:recordIdentifier>
+					</librarycloud:priorrecordids>
+					<librarycloud:processingDate>2022-10-05T08:28Z</librarycloud:processingDate>
+				</librarycloud:librarycloud>
+			</mods:extension>
+			<mods:extension>
+				<sets:sets
+					xmlns="http://www.loc.gov/mods/v3"
+					xmlns:ext="http://exslt.org/common"
+					xmlns:originalDocument="http://hul.harvard.edu/ois/xml/ns/originalDocument"
+					xmlns:processingDate="http://hul.harvard.edu/ois/xml/ns/processingDate"
+					xmlns:usage="http://lib.harvard.edu/usagedata"
+					xmlns:priorrecordids="http://hul.harvard.edu/ois/xml/ns/priorrecordids"
+					xmlns:availableTo="http://hul.harvard.edu/ois/xml/ns/availableTo"
+					xmlns:HarvardRepositories="http://hul.harvard.edu/ois/xml/ns/HarvardRepositories"
+					xmlns:digitalFormats="http://hul.harvard.edu/ois/xml/ns/digitalFormats">
+					<sets:set>
+						<sets:systemId>10</sets:systemId>
+						<sets:setName>Scanned Maps</sets:setName>
+						<sets:setSpec>maps</sets:setSpec>
+						<sets:baseUrl>https://id.lib.harvard.edu/curiosity/scanned-maps/44-</sets:baseUrl>
+					</sets:set>
+				</sets:sets>
+			</mods:extension>
+			<mods:recordInfo>
+				<mods:descriptionStandard>rda</mods:descriptionStandard>
+				<mods:recordContentSource authority="marcorg">HLS</mods:recordContentSource>
+				<mods:recordCreationDate encoding="marc">160606</mods:recordCreationDate>
+				<mods:recordChangeDate encoding="iso8601">20200331</mods:recordChangeDate>
+				<mods:recordIdentifier source="MH:ALMA">990125364060203941</mods:recordIdentifier>
+				<mods:recordOrigin>Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl
+        (Revision 1.117 2017/02/14)</mods:recordOrigin>
+				<mods:languageOfCataloging>
+					<mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+				</mods:languageOfCataloging>
+			</mods:recordInfo>
+		</mods:mods>
+	</items>
+</results>
