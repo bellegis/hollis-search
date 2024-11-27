@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HOLLIS SEARCH</title>
+  </head>
+
+  <body>
+    <h1>HOLLIS SEARCH</h1>
+
+    <script>
+        
+    //https://harvardwiki.atlassian.net/wiki/spaces/LibraryStaffDoc/pages/43287734/LibraryCloud+APIs
+    fetch('https://api.lib.harvard.edu/v2/items?title=massachusetts+official+route+map+1959&limit=1')
+    .then(response => response.text())
+    .then(xmlString => {
+        console.log(xmlString);
+    })
+    .catch(error => console.error('Error fetching data:', error));
+
+    </script>
+  </body>
+</html>
